@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "mongoose": "^9.3.3",
+    "multer": "^2.1.1",
+    "package.json": "^0.0.0",
+    "pug": "^3.0.4"
+  },
+  "name": "algonquinassignment2",
+  "description": "",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okssi0291/AlgonquinAssignment2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okssi0291/AlgonquinAssignment2/issues"
+  },
+  "homepage": "https://github.com/okssi0291/AlgonquinAssignment2#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
