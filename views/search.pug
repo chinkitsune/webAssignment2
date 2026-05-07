@@ -1,0 +1,14 @@
+extends layout
+block content
+  link(rel='stylesheet' href='css/search.css')
+  script(src='scripts/search.js' type='module')
+  main#mainContent
+    // Pages will be swapped by JS
+    #search-page
+      p Search results
+      #search-page-bar
+        #search-page-input
+          input#search-page-search(type='text' autocomplete='off' placeholder='Type to search...')
+          img#search-page-img(src='img/1-search.png' alt='search icon')
+      #search-page-result
+        ul#searched-list.no-bullets

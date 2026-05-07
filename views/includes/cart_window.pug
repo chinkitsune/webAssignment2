@@ -1,0 +1,43 @@
+// views/includes/cart_window.pug
+// Cart Window
+#cartWindow.cart-window
+  button#closeCart &times;
+  h3 Your Cart
+
+  #cartItems.cart-items
+  .cart-summary
+    p
+      | Subtotal:
+      span.money
+        | $
+        span#cartSubtotal  0.00
+    p
+      | Tax (5%):
+      span.money
+        | $
+        span#cartTax  0.00
+    p
+      | Total:
+      span.money
+        | $
+        span#cartTotal   0.00
+        
+    button#submitOrderBtn.submit-order-btn Submit Order
+    p#orderMessage.order-message
+
+
+
+template#cartItemTemplate
+  .cart-item
+    img.item-img(src="" alt="product")
+
+    .cart-info
+      strong.item-name
+      span.item-price-single
+
+      .qty-controls
+        button.qty-minus −
+        span.item-qty
+        button.qty-plus +
+
+    .item-total

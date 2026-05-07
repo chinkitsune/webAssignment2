@@ -1,0 +1,717 @@
+[
+  {
+    "_id": "69cfd5d86a9ce738dff3b762",
+    "name": "Baby Onesie",
+    "price": 18.99,
+    "category": "baby",
+    "age": "0-12m",
+    "color": "white",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/7e12be8f849829fca843062cbd43dd4b",
+    "description": "A comfortable white cotton onesie for babies aged 0-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b763",
+    "name": "Baby Romper",
+    "price": 21.99,
+    "category": "baby",
+    "age": "0-12m",
+    "color": "blue",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/c561d993b3808c67cb39b87ae7d7dc33",
+    "description": "A cute blue cotton romper for babies aged 0-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b764",
+    "name": "Baby Hat",
+    "price": 9.99,
+    "category": "baby",
+    "age": "0-12m",
+    "color": "pink",
+    "material": "wool",
+    "size": [
+      "S"
+    ],
+    "image": "product_images/3653e70a6453d394e00c2364bb32009c",
+    "description": "A warm pink wool hat for babies aged 0-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b765",
+    "name": "Baby Socks",
+    "price": 6.99,
+    "category": "baby",
+    "age": "0-12m",
+    "color": "gray",
+    "material": "cotton",
+    "size": [
+      "S"
+    ],
+    "image": "product_images/8372c3bf95ee5b1f50099c86bfcd8c85",
+    "description": "Soft gray cotton socks for babies aged 0-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b766",
+    "name": "Baby Jacket",
+    "price": 29.99,
+    "category": "baby",
+    "age": "6-12m",
+    "color": "yellow",
+    "material": "polyester",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/9b15b79be1ca45bfe4b88991e5efb865",
+    "description": "A bright yellow polyester jacket for babies aged 6-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b767",
+    "name": "Baby Pajamas",
+    "price": 24.99,
+    "category": "baby",
+    "age": "0-12m",
+    "color": "green",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/3f749b88284f77341bcbf388f4d3c578",
+    "description": "Cozy green cotton pajamas for babies aged 0-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b768",
+    "name": "Baby Bib",
+    "price": 7.99,
+    "category": "baby",
+    "age": "0-12m",
+    "color": "white",
+    "material": "cotton",
+    "size": [
+      "S"
+    ],
+    "image": "product_images/eb4297f9a8cb126ef843861fb16ed1a6",
+    "description": "A handy white cotton bib for babies aged 0-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b769",
+    "name": "Baby Blanket",
+    "price": 19.99,
+    "category": "baby",
+    "age": "0-12m",
+    "color": "beige",
+    "material": "wool",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/76a665b0891f4ce4095939840bc6cfdf",
+    "description": "A snug beige wool blanket for babies aged 0-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b76a",
+    "name": "Baby Shoes",
+    "price": 22.99,
+    "category": "baby",
+    "age": "6-12m",
+    "color": "brown",
+    "material": "leather",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/718cc4ea1c7611c7dca7e917932df58b",
+    "description": "Stylish brown leather shoes for babies aged 6-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b76b",
+    "name": "Baby T-Shirt",
+    "price": 12.99,
+    "category": "baby",
+    "age": "6-12m",
+    "color": "red",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/33365252d64382ea6c1682b3bb115d55",
+    "description": "A vibrant red cotton t-shirt for babies aged 6-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b76c",
+    "name": "Baby Hoodie",
+    "price": 26.99,
+    "category": "baby",
+    "age": "6-12m",
+    "color": "blue",
+    "material": "fleece",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/bd99d1690e10eadbb709544baeb74b91",
+    "description": "A warm blue fleece hoodie for babies aged 6-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b76d",
+    "name": "Baby Pants",
+    "price": 17.99,
+    "category": "baby",
+    "age": "6-12m",
+    "color": "black",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/b316495351cce8606a3d89b5a4f48d35",
+    "description": "Comfortable black cotton pants for babies aged 6-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b76e",
+    "name": "Baby Dress",
+    "price": 23.99,
+    "category": "baby",
+    "age": "6-12m",
+    "color": "pink",
+    "material": "linen",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/b5e845ee61520ff8835750f2b067988c",
+    "description": "A lovely pink linen dress for babies aged 6-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b76f",
+    "name": "Baby Swaddle",
+    "price": 20.99,
+    "category": "baby",
+    "age": "0-6m",
+    "color": "white",
+    "material": "muslin",
+    "size": [
+      "S"
+    ],
+    "image": "product_images/7c224ef8e7293bc1f9ad902ecee902c1",
+    "description": "A soft white muslin swaddle for babies aged 0-6m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b770",
+    "name": "Baby Gloves",
+    "price": 8.99,
+    "category": "baby",
+    "age": "0-6m",
+    "color": "gray",
+    "material": "cotton",
+    "size": [
+      "S"
+    ],
+    "image": "product_images/a12601bfc2206b1a2e8e469aafbb4b6d",
+    "description": "Warm gray cotton gloves for babies aged 0-6m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b771",
+    "name": "Kids T-Shirt",
+    "price": 14.99,
+    "category": "kid",
+    "age": "3-5y",
+    "color": "blue",
+    "material": "cotton",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/ce726ee4c7f7ee36aded6b915b9e5240",
+    "description": "A classic blue cotton t-shirt for kids aged 3-5y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b772",
+    "name": "Kids Hoodie",
+    "price": 29.99,
+    "category": "kid",
+    "age": "5-8y",
+    "color": "black",
+    "material": "fleece",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/bde7d4c473a30c5eddf5fa346274062d",
+    "description": "A cozy black fleece hoodie for kids aged 5-8y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b773",
+    "name": "Kids Jeans",
+    "price": 34.99,
+    "category": "kid",
+    "age": "5-8y",
+    "color": "blue",
+    "material": "denim",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/14ee8382167f8f90f0def06b7480a772",
+    "description": "Durable blue denim jeans for kids aged 5-8y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b774",
+    "name": "Kids Jacket",
+    "price": 39.99,
+    "category": "kid",
+    "age": "6-10y",
+    "color": "green",
+    "material": "polyester",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/f13affc9f4cb2b182ad62f6445fb595e",
+    "description": "A sturdy green polyester jacket for kids aged 6-10y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b775",
+    "name": "Kids Shorts",
+    "price": 19.99,
+    "category": "kid",
+    "age": "3-6y",
+    "color": "gray",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/cf0fb1c70c79152eedd854d05c346a18",
+    "description": "Comfortable gray cotton shorts for kids aged 3-6y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b776",
+    "name": "Kids Dress",
+    "price": 27.99,
+    "category": "kid",
+    "age": "4-7y",
+    "color": "pink",
+    "material": "linen",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/d71ee45206736294191121fcf551f8eb",
+    "description": "A pretty pink linen dress for kids aged 4-7y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b777",
+    "name": "Kids Pajamas",
+    "price": 22.99,
+    "category": "kid",
+    "age": "3-6y",
+    "color": "yellow",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/ecaee97ce93ff349b6464cd1adf777cc",
+    "description": "Bright yellow cotton pajamas for kids aged 3-6y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b778",
+    "name": "Kids Socks",
+    "price": 9.99,
+    "category": "kid",
+    "age": "3-8y",
+    "color": "white",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/76cdef6de74e1dcfaf5f144bb5d062a2",
+    "description": "Essential white cotton socks for kids aged 3-8y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b779",
+    "name": "Kids Cap",
+    "price": 11.99,
+    "category": "kid",
+    "age": "4-8y",
+    "color": "red",
+    "material": "polyester",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/56eb33e53b32ed7bdb192a570047357a",
+    "description": "A sporty red polyester cap for kids aged 4-8y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b77a",
+    "name": "Kids Shoes",
+    "price": 44.99,
+    "category": "kid",
+    "age": "6-10y",
+    "color": "black",
+    "material": "leather",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/e93005db68f4a2141f052252aa708861",
+    "description": "Smart black leather shoes for kids aged 6-10y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b77b",
+    "name": "Kids Sweater",
+    "price": 31.99,
+    "category": "kid",
+    "age": "6-10y",
+    "color": "brown",
+    "material": "wool",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/c2212e9915734805dbd4c9e284510e68",
+    "description": "A warm brown wool sweater for kids aged 6-10y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b77c",
+    "name": "Kids Leggings",
+    "price": 18.99,
+    "category": "kid",
+    "age": "4-8y",
+    "color": "purple",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/b00ce794741622653e995e8a5613f078",
+    "description": "Stretchy purple cotton leggings for kids aged 4-8y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b77d",
+    "name": "Kids Raincoat",
+    "price": 35.99,
+    "category": "kid",
+    "age": "5-9y",
+    "color": "yellow",
+    "material": "polyester",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/f750acdacfa22122d8dd720b48bda92d",
+    "description": "A bright yellow polyester raincoat for kids aged 5-9y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b77e",
+    "name": "Kids Gloves",
+    "price": 12.99,
+    "category": "kid",
+    "age": "5-9y",
+    "color": "gray",
+    "material": "wool",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/aff18cf26ba5519e0a8b555c50a2099b",
+    "description": "Warm gray wool gloves for kids aged 5-9y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b77f",
+    "name": "Kids Scarf",
+    "price": 13.99,
+    "category": "kid",
+    "age": "5-10y",
+    "color": "blue",
+    "material": "wool",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/ed005c9bab8634969f16cfc1ee3c43db",
+    "description": "A cozy blue wool scarf for kids aged 5-10y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b780",
+    "name": "Kids Tank Top",
+    "price": 15.99,
+    "category": "kid",
+    "age": "6-10y",
+    "color": "white",
+    "material": "cotton",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/02ccc0593327aadea096c4cc1cdace3a",
+    "description": "A cool white cotton tank top for kids aged 6-10y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b781",
+    "name": "Kids Tracksuit",
+    "price": 49.99,
+    "category": "kid",
+    "age": "7-12y",
+    "color": "black",
+    "material": "polyester",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/f8cead4a4a677c50cd9b3e027bb1b241",
+    "description": "A sporty black polyester tracksuit for kids aged 7-12y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b782",
+    "name": "Kids Blazer",
+    "price": 54.99,
+    "category": "kid",
+    "age": "8-12y",
+    "color": "navy",
+    "material": "linen",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/b05bd1d885d52956a80005cf42a2150c",
+    "description": "A smart navy linen blazer for kids aged 8-12y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b783",
+    "name": "Kids Skirt",
+    "price": 21.99,
+    "category": "kid",
+    "age": "4-7y",
+    "color": "pink",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/63d5a2aae1724a866df91b3da7455325",
+    "description": "A cute pink cotton skirt for kids aged 4-7y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b784",
+    "name": "Kids Sandals",
+    "price": 27.99,
+    "category": "kid",
+    "age": "5-9y",
+    "color": "brown",
+    "material": "leather",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/5ce33f9fe00a3640ba5e44c6eda3104f",
+    "description": "Comfortable brown leather sandals for kids aged 5-9y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b785",
+    "name": "Kids Backpack",
+    "price": 25.99,
+    "category": "kid",
+    "age": "6-10y",
+    "color": "blue",
+    "material": "polyester",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/113379ac6cd99efba8a17bb4ec437dce",
+    "description": "A spacious blue polyester backpack for kids aged 6-10y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b786",
+    "name": "Kids Winter Coat",
+    "price": 59.99,
+    "category": "kid",
+    "age": "7-12y",
+    "color": "black",
+    "material": "polyester",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/bccaab14dd198213e270c30884303949",
+    "description": "A warm black polyester winter coat for kids aged 7-12y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b787",
+    "name": "Kids Slippers",
+    "price": 16.99,
+    "category": "kid",
+    "age": "4-8y",
+    "color": "gray",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/624e59bedb41fa2184bd78b6a3a81088",
+    "description": "Cozy gray cotton slippers for kids aged 4-8y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b788",
+    "name": "Kids Swimwear",
+    "price": 23.99,
+    "category": "kid",
+    "age": "5-10y",
+    "color": "blue",
+    "material": "nylon",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/b03eeda4289d5572625fefd40a265e20",
+    "description": "Fun blue nylon swimwear for kids aged 5-10y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b789",
+    "name": "Kids Belt",
+    "price": 10.99,
+    "category": "kid",
+    "age": "6-10y",
+    "color": "black",
+    "material": "leather",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/68d99d86af2a38208b677fc95f3f002f",
+    "description": "A classic black leather belt for kids aged 6-10y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b78a",
+    "name": "Baby Winter Suit",
+    "price": 34.99,
+    "category": "baby",
+    "age": "6-12m",
+    "color": "blue",
+    "material": "polyester",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/8c08e47d9f881727e898204ebdeee72b",
+    "description": "A warm blue polyester winter suit for babies aged 6-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b78b",
+    "name": "Baby Cardigan",
+    "price": 22.99,
+    "category": "baby",
+    "age": "6-12m",
+    "color": "cream",
+    "material": "wool",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/bd92caf1aae805fe4ff2a285bef3fe8a",
+    "description": "A soft cream wool cardigan for babies aged 6-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b78c",
+    "name": "Baby Leggings",
+    "price": 15.99,
+    "category": "baby",
+    "age": "0-12m",
+    "color": "gray",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/7f309abdc8779f337bcf67bcffff6d31",
+    "description": "Stretchy gray cotton leggings for babies aged 0-12m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b78d",
+    "name": "Baby Summer Set",
+    "price": 19.99,
+    "category": "baby",
+    "age": "3-9m",
+    "color": "yellow",
+    "material": "cotton",
+    "size": [
+      "S"
+    ],
+    "image": "product_images/9d62601cbef0d9b29b20e1a4ac7db3bc",
+    "description": "A bright yellow cotton summer set for babies aged 3-9m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b78e",
+    "name": "Baby Booties",
+    "price": 11.99,
+    "category": "baby",
+    "age": "0-6m",
+    "color": "white",
+    "material": "wool",
+    "size": [
+      "S"
+    ],
+    "image": "product_images/0c264a7835a2d1aab6ad46b66d3c1227",
+    "description": "Cozy white wool booties for babies aged 0-6m."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b78f",
+    "name": "Kids Polo Shirt",
+    "price": 18.99,
+    "category": "kid",
+    "age": "6-10y",
+    "color": "green",
+    "material": "cotton",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/caf30e7684f52db99c2a4d1d002a0a67",
+    "description": "A smart green cotton polo shirt for kids aged 6-10y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b790",
+    "name": "Kids Formal Pants",
+    "price": 32.99,
+    "category": "kid",
+    "age": "7-12y",
+    "color": "black",
+    "material": "linen",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/d21d24e2030ac8cc599ee8bf8c575b70",
+    "description": "Elegant black linen formal pants for kids aged 7-12y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b791",
+    "name": "Kids Denim Jacket",
+    "price": 41.99,
+    "category": "kid",
+    "age": "6-10y",
+    "color": "blue",
+    "material": "denim",
+    "size": [
+      "L"
+    ],
+    "image": "product_images/2613604eef1fcd2cf33c6270aca7ac02",
+    "description": "A stylish blue denim jacket for kids aged 6-10y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b792",
+    "name": "Kids Graphic Tee",
+    "price": 16.99,
+    "category": "kid",
+    "age": "5-9y",
+    "color": "white",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/142940999bd9b68a1fb9bc71c6e95118",
+    "description": "A fun white cotton graphic tee for kids aged 5-9y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b793",
+    "name": "Kids Pajama Set",
+    "price": 24.99,
+    "category": "kid",
+    "age": "4-8y",
+    "color": "purple",
+    "material": "cotton",
+    "size": [
+      "M"
+    ],
+    "image": "product_images/2522adf20ba3a711f99697b8a216c42e",
+    "description": "A comfortable purple cotton pajama set for kids aged 4-8y."
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b794",
+    "name": "Woman Jean",
+    "description": "woman cloth",
+    "price": 50,
+    "image": "product_images/91dca161931a2092ee94091f0fd4d1d1",
+    "category": "woman",
+    "age": "10-20y",
+    "color": "blue",
+    "material": "jean",
+    "size": [
+      "S"
+    ],
+    "__v": 0
+  }
+]

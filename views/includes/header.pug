@@ -1,0 +1,20 @@
+script(src='scripts/header.js' type='module')
+header
+    .header-left
+      p#login-info
+    .header-center
+      a#homeLink.brand(href='/')
+        div
+          img#logo-img(src='img/1-logo.png' alt='fashion market logo')
+    .nav-actions
+      // icorn is from https://home.streamlinehq.com/
+      // free to use but need direct link
+      a#searchLink.nav-tools(href='#')
+        #searchInput.search-btn
+          img#search-img(src='img/1-search.png' alt='search icon')
+      a#logInLink.nav-tools(href='/login')
+        #loginBtn.login-btn
+          img#user-img(src='img/1-user.png' alt='user icon')
+      a#userLink.nav-tools(href='#')
+        #cartToggle.cart-btn
+          img#cart-img(src='img/1-shoppingbag.png' alt='shopping bag icon')

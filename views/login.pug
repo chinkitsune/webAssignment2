@@ -1,0 +1,21 @@
+extends layout
+block content
+    link(rel='stylesheet' href='css/login.css')
+    script(src='scripts/login.js' type='module')
+    .login-container
+      h2 Login
+      form#login-form(action='#' method='POST')
+        .input-group
+          label(for='username') Username
+          input#username(type='text' name='username' required='')
+        .input-group
+          label(for='password') Password
+          input#password(type='password' name='password' required='')
+        a#createAccount(href='/createaccount') Don&apos;t have an account?
+        button(type='submit') Login
+      #logged-in-div.hidden
+        .input-group
+          | Welcome to Fashion Market!
+        .input-group
+          p Your point : 1000
+        button#logout-button(type='submit') Logout

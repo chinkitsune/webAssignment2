@@ -1,0 +1,91 @@
+#search-page{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    align-content: center;
+    width: 100%;
+}
+
+#search-page > p{
+    text-align: center;
+    font-size: 32px;
+}
+
+
+#search-page-bar {
+    width: 100%;
+    background-color: white;
+    
+    /* We use Flexbox to center the input box inside the div */
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+
+    display: flex; /* HIDDEN BY DEFAULT */
+    visibility: visiable;
+    opacity: 1;
+
+    margin-bottom: 40px;
+}
+
+#search-page-input {
+    border: 1px solid rgb(110, 110, 110);
+    padding: 10px;
+    margin-right: 10px;
+}
+#search-page-input input{
+    width: 400px;
+    border: none;
+    outline: none;
+}
+
+#search-page-img{
+    cursor: pointer;
+    width: 24px;           /* Control the size of your image here */
+    height: 24px;
+}
+
+#search-page-bar button{
+    border: none;
+    outline: none;
+    font-size: 24px;
+    cursor:pointer;
+    color: rgb(110, 110, 110);
+    background-color: transparent;
+}
+
+#mainContent{
+    align-content: center;
+    background-color: white;
+    padding-top:20px;
+}
+
+.product-thumb{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+}
+
+.product-thumb > p{
+    font-size: 12px;
+}
+
+.no-bullets{
+    list-style-type: none;
+}
+
+#search-page-result{
+    padding: 10px;
+}
+#search-page-result > ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.product-thumb .product-title{
+    margin-top: 10px;
+}
+.product-thumb .product-price{
+    margin: 10px 0px;
+}

@@ -1,0 +1,25 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Fashion Market
+
+    link(rel='stylesheet' href='css/styles.css')
+    script(src='scripts/index.js' type='module')
+  body
+    include includes/searchbar.pug
+    #app.container
+      // Include the header content
+      include includes/header.pug
+      // Include the navigation content
+      include includes/nav.pug
+      // Include the cart window content
+      include includes/cart_window.pug
+
+      // This is the main content area that will be filled by extending templates
+      main#mainContent
+        block content
+
+      // Include the footer content
+      include includes/footer.pug

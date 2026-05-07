@@ -1,0 +1,69 @@
+
+
+
+
+h1 {
+    text-align: center;
+    font-weight: 299;
+    margin-bottom: 19px;
+}
+
+.form-group {
+    margin-bottom: 14px;
+
+}
+
+#contactForm {
+    width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+input, textarea {
+    width: 99%;
+    padding: 9px;
+    /* border: 0px solid #ccc; */
+    border-radius: 3px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 99px;
+    resize: none;
+}
+
+button {
+    width: 99%;
+    padding: 9px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+#errorBox {
+    color: red;
+    margin-top: 9px;
+    text-align: center;
+}
+
+#outputBox {
+    color: green;
+    margin-top: 9px;
+    text-align: center;
+}

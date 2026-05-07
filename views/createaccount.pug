@@ -1,0 +1,25 @@
+extends layout
+block content
+    link(rel='stylesheet' href='css/login.css')
+    script(src='scripts/createaccount.js' type='module')
+    .login-container
+      #message.hidden
+        p Registration successful! Please login.
+      form(action='/register' method='POST' id='register-form')
+        h2 Create Account
+        .input-group
+          label(for='userId') Username
+          input#userId(type='text' name='userId' required='')
+        .input-group
+          label(for='password') Password
+          input#password(type='password' name='password' required='')
+        .input-group
+          label(for='passwordConfirm') Password Confirm
+          input#passwordConfirm(type='password' name='passwordConfirm' required='')
+        .input-group
+          label(for='realName') Real Name
+          input#realName(type='text' name='realName' required='')
+        .input-group
+          label(for='phoneNumber') Phone number
+          input#phoneNumber(type='text' name='phoneNumber' required='')
+        button(type='submit') Register

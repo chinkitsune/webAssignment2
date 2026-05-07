@@ -1,0 +1,18 @@
+//- nav.main-nav
+//-     #desktopNav.nav-expanded
+//-         a.nav-link(href='/') Home
+//-         a.nav-link(href='#') Babys
+//-         a.nav-link(href='#') Kids
+//-         a.nav-link(href='/contact') Contact
+//-         a.nav-link(href='/search') Search
+//-         a.nav-link(href='/product_manage') Manage Products
+nav.main-nav
+  #desktopNav.nav-expanded
+    // Changed href to '#' as client-side JS will handle filtering
+    a.nav-link(href='/') Home
+    a#allproductsLink.nav-link(href='/all') All
+    a#babiesLink.nav-link(href='#') Babies
+    a#kidsLink.nav-link(href='#') Kids
+    a.nav-link(href='/contact') Contact
+    a.nav-link(href='/search') Search
+    a.nav-link(href='/product_manage') Manage Products

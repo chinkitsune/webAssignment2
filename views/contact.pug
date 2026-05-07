@@ -1,0 +1,21 @@
+extends layout
+block content
+  link(rel='stylesheet' href='./css/contact_style.css')
+  script(src='scripts/contact.js')
+  script(src='scripts/header.js' type='module')
+  .contact-form
+    h1 Contact form
+    form#contactForm
+      .form-group
+        label Name
+        input#name(type='text' placeholder='Name')
+      .form-group
+        label Email
+        input#email(type='text' placeholder='Email *')
+      .form-group
+        label Phone number
+        input#phone(type='text' placeholder='Phone number')
+      .form-group
+        label Comment
+        textarea#comment(placeholder='Comment')
+      button(type='submit') Send

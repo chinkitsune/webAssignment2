@@ -1,0 +1,171 @@
+/* 1. The Wrapper */
+.nav-wrapper {
+    position: relative; /* This traps the absolutely positioned search bar inside this box */
+    width: 100%;
+}
+
+/* 2. The Header */
+header {
+    display: flex;
+    justify-content: space-between; /* Puts logo on left, search icon on right */
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #f8f9fa; 
+}
+
+/* 3. The Search Bar */
+#search-bar {
+    position: absolute; /* Floats it over the header */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; /* Matches the height of the header completely */
+    background-color: transparent;
+    z-index: 10; /* Ensures it sits ON TOP of the header */
+    
+    /* We use Flexbox to center the input box inside the div */
+    align-items: center;
+    /* justify-content: center; */
+    box-sizing: border-box;
+
+    display: flex; /* HIDDEN BY DEFAULT */
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    transform: translateY(-10%);
+}
+
+/* 4. The Active State */
+#search-bar.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#search-input {
+    border: 1px solid rgb(110, 110, 110);
+    padding: 10px;
+    width:100%;
+}
+#search-input input{
+    width: 400px;
+    border: none;
+    outline: none;
+}
+
+#search-img{
+    cursor: pointer;
+}
+
+#search-bar button{
+    border: none;
+    outline: none;
+    font-size: 24px;
+    cursor:pointer;
+    color: rgb(110, 110, 110);
+    background-color: transparent;
+}
+
+#search-img-search-bar{
+    width: 20px;           /* Control the size of your image here */
+    height: 20px;
+    cursor: pointer;
+}
+
+#search-input-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#search-result{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 10px;
+    border-left: 1px dashed rgb(110, 110, 110);
+    border-right: 1px dashed rgb(110, 110, 110);
+    border-bottom: 1px dashed rgb(110, 110, 110);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    /* display: flex; */
+    /* flex-direction: row */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#search-result ul{
+    padding-top:5px;
+    padding-left:5px;
+}
+
+#search-bar-section{
+    margin-right: 10px;
+}
+#search-bar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding:10px;
+}
+
+#close-search{
+    margin-top:100px;
+    padding-top:10px;
+}
+
+#search-background{
+    position: absolute; /* Floats it over the header */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; /* Matches the height of the header completely */
+    background-color: white;
+    z-index: 9; /* Ensures it sits ON TOP of the header */
+    
+    /* We use Flexbox to center the input box inside the div */
+    align-items: center;
+    /* justify-content: center; */
+    box-sizing: border-box;
+
+    display: flex; /* HIDDEN BY DEFAULT */
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    transform: translateY(-10%);
+}
+
+#search-background.active{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+.title{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.no-bullets{
+    list-style-type: none;
+}
+
+.searched-product-thumb{
+    display: flex;
+    flex-direction: row;
+}
+.searched-product-thumb img{
+    width:70px;
+    margin: 5px;
+}
+.searched-product-thumb p{
+    font-size: 10px;
+}

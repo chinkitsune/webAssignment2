@@ -1,0 +1,120 @@
+
+/*this part of code provided by jjaying*/
+:root{
+  --font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  --primary: #9bb9e1;
+  --accent: #5e86ba;
+  --logo-dark-blue:#1a3558;
+  --light-blue:#d6e0ec ;
+  --bg: #f4f6f9;
+  --card: #ffffff;
+  --muted: #8b7f84;
+  --text: #2b2b2b;
+  --radius: 12px;
+  --gap: 20px;
+  --shadow: 0 6px 18px rgba(43,43,43,0.08);
+  --breakpoint-sm: 760px;
+  --nav-height: 60px;
+  --max-width: 1100px;
+  --margin-right: 40px;
+}
+/*make sure it's border box model and reset browser style*/
+*,
+*::before,
+*::after{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+/*this part of code provided by jjaying*/
+
+
+/*makes sure all items */
+#mainContent{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+/*
+  LOGIN CONTAINER STYLES
+  - styles the box that contains the login form.
+  - 'background: #fff' sets the background color of the login box to white. '#fff' is a hex color code for white.
+  - 'padding: 16px' adds 16 pixels (px) of space inside the box on all sides. 'px' stands for pixels, a common unit for screen measurements.
+  - 'border-radius: 4px' rounds the corners of the box by 4 pixels.
+  - 'box-shadow: 0 0 6px #ccc' adds a soft shadow around the box. '0 0 6px' means: 0px horizontal offset, 0px vertical offset, 6px blur radius, color #ccc (light gray).
+  - 'width: 220px' sets the width of the box to 220 pixels.
+  - 'text-align: center' centers the text inside the box.
+*/
+
+.login-container {
+    font-family: var(--font-family);
+    background: var(--bg);
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 0 6px var(--shadow);
+    width: 220px;
+    text-align: center;
+}
+
+/*
+  INPUT GROUP STYLES
+  - Adds space between each label/input pair and aligns text to the left.
+  - 'margin-bottom: 10px' adds 10 pixels of space below each input group.
+  - 'text-align: left' aligns the label and input text to the left.
+*/
+.input-group {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/*
+  LABEL STYLES
+  - Styles the text labels above each input.
+  - 'font-size: 13px' sets the label text size to 13 pixels. 'px' means pixels.
+*/
+.input-group label {
+    font-size: 13px;
+}
+
+/*
+  INPUT FIELD STYLES
+  - Styles the text and password input fields.
+  - 'width: 100%' makes the input field take up the full width of its container. 100% means it stretches to fill the parent.
+  - 'padding: 5px' adds 5 pixels of space inside the input field for better readability.
+  - 'border-radius: 2px' rounds the corners of the input field by 2 pixels.
+*/
+.input-group input {
+    width: 100%;
+    padding: 5px;
+    color: var(--text);
+    border-radius: 2px;
+}
+
+/*
+  BUTTON STYLES
+  - Styles the login button.
+  - 'width: 100%' makes the button as wide as its container.
+  - 'padding: 7px 0' adds 7 pixels of space above and below the button text, 0 left and right.
+  - 'border: none' removes the default border.
+  - 'border-radius: 2px' rounds the corners of the button by 2 pixels.
+  - 'font-size: 14px' sets the button text size to 14 pixels.
+  - 'cursor: pointer' changes the mouse cursor to a pointer (hand) when hovering over the button.
+*/
+button[type="submit"] {
+    font-family: var(--font-family);
+    width: 100%;
+    padding: 7px 0;
+    background: var(--primary);
+    color: var(--text);
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/**
+Author : Younghoon.
+*/
+.hidden{
+  display: none;
+}

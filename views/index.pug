@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content
+  link(rel='stylesheet' href='css/index.css')
+  script(src='scripts/db-management.js' defer)
+  .index-container
+    .section.members-section
+      h2.section-title Project Members
+      ul.members-list
+        li.member-item Younghoon Ok (041181162)
+        li.member-item Jiaying Chen (041191259)
+        li.member-item Junghyun Bok (041107601)
+        li.member-item Deng Dan (040403482)
+
+    .section.db-section
+      h2.section-title Database Management
+      #db-message
+      .button-group
+        button#btn-restore.btn.btn-primary Restore Database
+        button#btn-export.btn.btn-danger Export Database

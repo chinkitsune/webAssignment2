@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "69cfd5d86a9ce738dff3b795",
+    "userId": "okssi",
+    "userName": "Younghoon Ok",
+    "password": "1234",
+    "points": 0,
+    "phoneNumber": "613-804-7729",
+    "deposit": 0,
+    "__v": 0
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b796",
+    "userId": "Jiayin",
+    "userName": "Jiayin Chen",
+    "password": "1234",
+    "points": 0,
+    "phoneNumber": "123-1234-1234",
+    "deposit": 0,
+    "__v": 0
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b797",
+    "userId": "kim",
+    "userName": "Kim Bible",
+    "password": "1234",
+    "points": 0,
+    "phoneNumber": "123-1234-1234",
+    "deposit": 0,
+    "__v": 0
+  },
+  {
+    "_id": "69cfd5d86a9ce738dff3b798",
+    "userId": "scott",
+    "userName": "scott cash",
+    "password": "123",
+    "points": 0,
+    "phoneNumber": "123-123123-123123",
+    "deposit": 0,
+    "__v": 0
+  }
+]

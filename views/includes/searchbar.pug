@@ -1,0 +1,30 @@
+link(rel='stylesheet' href='css/searchbar.css')
+script(src='scripts/searchbar.js' defer='')
+#search-background
+#search-bar
+  #search-bar-container
+    section#search-bar-section
+      #search-input-section
+        #search-input
+          input#search(type='text' autocomplete='off' placeholder='Type to search...')
+          img#search-img-search-bar(src='img/1-search.png' alt='search icon')
+      #search-result
+        section#search-suggestion
+          p.title SUGGESTIONS
+          ul.no-bullets
+            li item 1
+            li item 2
+        section#search-products
+          p.title PRODUCTS
+          ul.no-bullets
+            li
+              .searched-product-thumb
+                img(src='./img/temp.webp')
+                p.product-title
+                  | Norden - Organic Cotton body for babies GOTS - Heather
+            li
+              .searched-product-thumb
+                img(src='./img/temp.webp')
+                p.product-title
+                  | Norden - Organic Cotton body for babies GOTS - Heather
+    button#close-search  X 

@@ -1,0 +1,121 @@
+extends layout
+block content
+  link(rel='stylesheet' href='css/product_manage.css')
+  script(src='scripts/product_manage.js' type='module')
+  #message-box.message-box-overlay
+    .message-box-content
+      p#message-box-text
+      button#message-box-close(type='button') Close
+
+  .insert-product-layout
+    aside.product-list-panel
+      .list-toolbar
+        button#change_insert_view(type='button') Change to insert form
+        button#change_modify_view(type='button') Change to modify form
+      .list-toolbar
+        input#product-list-search(type='search' placeholder='Search products...' aria-label='Search product list')
+        button#product-list-apply(type='button') Apply
+      .list-container
+        table#product-list-table
+          thead
+            tr
+              th Product
+              th Price
+          tbody
+      #pagination-controls.pagination-controls(aria-label='Product list pagination')
+        //- button.pagination-button(type='button' disabled='') &laquo;
+        button.pagination-button.active(type='button') 1
+        //- button.pagination-button(type='button') &raquo;
+    section.insert-product-panel
+      #insert-product-card.insert-product-card(hidden='')
+        .form-header
+          h1 Insert New Product
+          p.form-description Fill in the details below to add a product to the catalog.
+        form#insert-product-form
+          .input-group
+            label(for='product-name') Product Name
+            input#product-name(type='text' name='productName' required='')
+          .input-group
+            label(for='product-description') Product Description
+            textarea#product-description(name='productDescription' required='')
+          .input-group
+            label(for='product-price') Price
+            input#product-price(type='number' name='productPrice' step='0.01' required='')
+          .input-group
+            label(for='product-category') Category
+            select#product-category(name='productCategory')
+              option(value='' disabled selected) Select a size
+              option(value='baby') baby
+              option(value='kid') kid
+              option(value='woman') woman
+              option(value='man') man
+          .input-group
+            label(for='product-age') Age
+            input#product-age(type='text' name='productAge')
+          .input-group
+            label(for='product-color') Color
+            input#product-color(type='text' name='productColor')
+          .input-group
+            label(for='product-material') Material
+            input#product-material(type='text' name='productMaterial')
+          .input-group
+            label(for='product-size') Size
+            select#product-size(name='productSize')
+              option(value='' disabled selected) Select a size
+              option(value='XS') XS
+              option(value='S') S
+              option(value='M') M
+              option(value='L') L
+              option(value='XL') XL
+          .input-group
+            label(for='product-image') Image
+            input#product-image(type='file' name='productImage' accept='image/*')
+          button(type='submit') Insert Product
+      #modify-product-card.modify-product-card
+        .form-header
+          h1 Modify Existing Product
+          p.form-description Update product details below and submit to modify an existing catalog item.
+        form#modify-product-form
+          .input-group
+            label(for='modify-product-id') Product ID
+            input#modify-product-id(type='text' name='productId' placeholder='Enter existing product ID' required='')
+          .input-group
+            label(for='modify-product-name') Product Name
+            input#modify-product-name(type='text' name='productName' required='')
+          .input-group
+            label(for='modify-product-description') Product Description
+            textarea#modify-product-description(name='productDescription' required='')
+          .input-group
+            label(for='modify-product-price') Price
+            input#modify-product-price(type='number' name='productPrice' step='0.01' required='')
+          .input-group
+            label(for='modify-product-category') Category
+            select#modify-product-category(name='productCategory')
+              option(value='' disabled selected) Select a size
+              option(value='baby') baby
+              option(value='kid') kid
+              option(value='woman') woman
+              option(value='man') man
+          .input-group
+            label(for='modify-product-age') Age
+            input#modify-product-age(type='text' name='productAge')
+          .input-group
+            label(for='modify-product-color') Color
+            input#modify-product-color(type='text' name='productColor')
+          .input-group
+            label(for='modify-product-material') Material
+            input#modify-product-material(type='text' name='ProductMaterial')
+          .input-group
+            label(for='modify-product-size') Size
+            select#modify-product-size(name='productSize')
+              option(value='' disabled selected) Select a size
+              option(value='XS') XS
+              option(value='S') S
+              option(value='M') M
+              option(value='L') L
+              option(value='XL') XL
+          img(src="" alt="Product Image" id="modify-product-image")
+          .input-group
+            label(for='modify-product-image') Image
+            input#modify-product-image(type='file' name='modify-productImage' accept='image/*')
+          button(type='submit') Update Product
